@@ -23,27 +23,35 @@
 
 /*Right side CSS*/
 .right-pannel {
-    flex: 3 1 auto;
+    flex: 3 1 66vw;
 
-    min-width: 66%;
+    min-width: 600px;
 
+    display: flex;
+    flex-direction: column;
+
+    background-color: #86898e;
     border: 1px solid black;
-    background-color: brown;
 }
+.text-intro {
+    width: 58%;
+    overflow-wrap: break-word; 
+}
+
 
 
 /*Left side CSS*/
 .left-pannel {
-    flex: 1 1 auto;
+    flex: 1 1 33vw;
 
-    min-width: 33%;
+    min-width: 250px;
 
     display: flex;
     flex-direction: column;
 
     background-image: url("./../img/left-background.jpg");
     background-position: center;
-    background-size: auto 100%;
+    background-size: 1660px 1107px;
 }
 .logo {
     background-color: rgba(0, 0, 0, 0.5);
