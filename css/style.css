@@ -39,7 +39,7 @@
     min-width: 33%;
 
     display: flex;
-    justify-content: center;    
+    flex-direction: column;
 
     background-image: url("./../img/left-background.jpg");
     background-position: center;
@@ -54,7 +54,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 33%;
+    margin-top: min(10rem, 33%);
 }
 img {
     height: 140px;
@@ -64,4 +64,16 @@ h1 {
     color: white;
     font-family: 'odin', Arial, Helvetica, sans-serif;
     font-size: 8rem;
+}
+.photo-credit {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+
+    align-self: center;
+    margin-top: auto;
+    padding: 5px 5px 0 5px;
+}
+a {
+    color: white;
+
 }
