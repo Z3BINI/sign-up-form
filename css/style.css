@@ -13,8 +13,8 @@
 .container {
     width: 100vw;
     height: 100vh;
-
     max-width: 100%;
+    min-width: 575px;
 
     display: flex;
     flex-wrap: wrap;
@@ -23,9 +23,10 @@
 
 /*Right side CSS*/
 .right-pannel {
-    flex: 3 1 66vw;
+    flex: 3 1 66%;
 
-    min-width: 600px;
+    min-width: 575px;
+    min-height: 70%;
 
     position: relative;    
 }
@@ -39,18 +40,20 @@
 }
 .right-pannel-content{
     position: absolute;
+
+    filter: blur(0);
     
     width: 100%;
-    height: 50%;
+    height: 60%;
     margin: auto;
     top: 0; left: 0; bottom: 0; right: 0;
-
-   border: 1px solid red;
 }
 .text-intro {
-    width: 58%;
+    width: 60%;
     overflow-wrap: break-word; 
+
     margin-bottom: 5%;
+    margin-left: 5%;
 }
 .card {
     background-color: rgba(0, 0, 0, 0.5);
@@ -76,9 +79,8 @@
 
 /*Left side CSS*/
 .left-pannel {
-    flex: 1 1 33vw;
+    flex: 1 1 33%;    
 
-    min-width: 250px;
 
     display: flex;
     flex-direction: column;
@@ -95,7 +97,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: min(10rem, 33%);
+    margin-top: 10vw;
 }
 img {
     height: 140px;
