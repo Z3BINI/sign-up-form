@@ -29,6 +29,7 @@
 
     display: flex;
     flex-direction: column;
+    justify-content: center;
 
     background-color: #86898e;
     border: 1px solid black;
@@ -36,8 +37,28 @@
 .text-intro {
     width: 58%;
     overflow-wrap: break-word; 
+    margin-bottom: 5%;
 }
+.card {
+    background-color: #5c5f63;
+    width: 100%;
+}
+.form-size{
+    width: 50%;
+    height: auto;
 
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.row{
+    display: flex;
+    gap: 12px;
+}
+.column {
+    display: flex;
+    flex-direction: column;
+}
 
 
 /*Left side CSS*/
