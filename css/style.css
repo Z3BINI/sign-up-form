@@ -13,7 +13,8 @@
 .container {
     width: 100vw;
     height: 100vh;
-    max-width: 100%;
+
+    min-height: 700px;
     min-width: 575px;
 
     display: flex;
@@ -27,7 +28,7 @@
     flex: 3 1 66%;
 
     min-width: 575px;
-    min-height: 75%;
+    min-height: 100%;
 
     position: relative;    
 }
