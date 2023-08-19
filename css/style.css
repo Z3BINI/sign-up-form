@@ -27,12 +27,25 @@
 
     min-width: 600px;
 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    position: relative;    
+}
+.bg-image{
+    background-image: url(./../img/right-background.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    filter: blur(8px);
+}
+.right-pannel-content{
+    position: absolute;
+    
+    width: 100%;
+    height: 50%;
+    margin: auto;
+    top: 0; left: 0; bottom: 0; right: 0;
 
-    background-color: #86898e;
-    border: 1px solid black;
+   border: 1px solid red;
 }
 .text-intro {
     width: 58%;
@@ -40,7 +53,7 @@
     margin-bottom: 5%;
 }
 .card {
-    background-color: #5c5f63;
+    background-color: rgba(0, 0, 0, 0.5);
     width: 100%;
 }
 .form-size{
@@ -72,7 +85,6 @@
 
     background-image: url("./../img/left-background.jpg");
     background-position: center;
-    background-size: 1660px 1107px;
 }
 .logo {
     background-color: rgba(0, 0, 0, 0.5);
