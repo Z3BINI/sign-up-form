@@ -76,6 +76,9 @@
     font-size: 12px;
     margin-bottom: 20px;
 }
+.small.no-match {
+    color: red;
+}
 .form-size{
     display: flex;
     flex-direction: column;
