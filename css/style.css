@@ -69,8 +69,12 @@
     padding-top: 20px;
     padding-bottom: 20px;
 }
-.form-title {
+.form-title, .small {
     margin-left: 5%;
+}
+.small{
+    font-weight: bold;
+    font-size: 12px;
     margin-bottom: 20px;
 }
 .form-size{
