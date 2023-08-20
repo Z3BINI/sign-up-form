@@ -40,7 +40,6 @@
     background-size: cover;
     height: 100%;
     width: 100%;
-    filter: blur(8px);
 }
 .right-pannel-content{
     position: absolute;
