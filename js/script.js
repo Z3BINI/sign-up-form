@@ -9,7 +9,19 @@ rightPannel.addEventListener('mouseleave', () => removeBlur(backgroundImage));
 
 
 function addBlur(image) {
-    image.style.cssText = 'filter: blur(8px)';
+
+    let x = 1;
+
+    let interval = setInterval( () => { 
+
+        if (x > 11) clearInterval(interval); 
+
+        image.style.cssText = `filter: blur(${x}px)`;
+
+        x++;
+
+    }, 50);
+
 }
 
 function removeBlur(image) {
