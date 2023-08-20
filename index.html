@@ -29,35 +29,36 @@
                 <form action="#" method="post">
                     <div class="card">
                         <h2 class="form-title">Let's do this!</h2>
+                        <p class="small">(*) Fields are required.</p>
                         <div class="form-size">
                             <div class="row">
                                 <div class="column">
-                                    <label for="first_name">First Name</label>
-                                    <input type="text" id="first_name" name="first_name" placeholder="John?">
+                                    <label for="first_name">First Name *</label>
+                                    <input type="text" id="first_name" name="first_name" placeholder="John?" minlength="2" maxlength="12" required>
                                 </div>
                                 <div class="column">
-                                    <label for="last_name">Last Name</label>
-                                    <input type="text" id="last_name" name="last_name" placeholder="Doe?">
+                                    <label for="last_name">Last Name *</label>
+                                    <input type="text" id="last_name" name="last_name" placeholder="Doe?" minlength="2" maxlength="12" required>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="column">
-                                    <label for="email">E-Mail</label>
-                                    <input type="email" id="email" name="email" placeholder="john.doe@something.com">
+                                    <label for="email">E-Mail *</label>
+                                    <input type="email" id="email" name="email" placeholder="john.doe@something.com" required>
                                 </div>
                                 <div class="column">
                                     <label for="tele">Telephone Number</label>
-                                    <input type="tel" id="tele" name="tele" placeholder="Home or mobile">
+                                    <input type="tel" id="tele" name="tele" pattern="[29][0-9]{8}" title="Only Portuguese numbers accepted." placeholder="Home or Mobile">
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="column">
-                                    <label for="pass">Password</label>
-                                    <input type="password" id="pass" name="pass" required>
+                                    <label for="pass">Password *</label>
+                                    <input type="password" id="pass" name="pass" minlength="8" required>
                                 </div>
                                 <div class="column">
-                                    <label for="conf_pass">Confirm Password</label>
-                                    <input type="password" id="conf_pass" name="conf_pass" required>
+                                    <label for="conf_pass">Confirm Password *</label>
+                                    <input type="password" id="conf_pass" name="conf_pass" minlength="8" required>
                                 </div>
                             </div>
                         </div>
