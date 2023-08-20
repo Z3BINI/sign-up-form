@@ -138,10 +138,18 @@ a {
 
 
 /*Form control styles*/
+
+*,*:focus,*:hover {
+    outline: none;
+}
 input{
     height: 30px;
     width: 250px;
     border-radius: 5px;
-    border: 1px solid grey;
-    box-shadow: 2px 2px 5px black;
+    border: 1px solid #E5E7EB;
+    padding-left: 5px;
+}
+input:focus-visible {
+    border: 2px solid rgb(89, 160, 218);
+    box-shadow: 2px 2px 10px black;
 }
