@@ -25,7 +25,19 @@ function addBlur(image) {
 }
 
 function removeBlur(image) {
-    image.style.cssText = '';
+    
+    let x = 10;
+
+    let interval = setInterval( () => { 
+
+        if (x === 0) clearInterval(interval); 
+
+        image.style.cssText = `filter: blur(${x}px)`;
+
+        x--;
+
+    }, 50);
+
 }
 
 
