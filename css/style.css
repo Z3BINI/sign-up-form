@@ -16,7 +16,7 @@
     max-height: 100%;
     max-width: 100%;
 
-    min-height: 700px;
+    min-height: 875px;
     min-width: 575px;
 
     display: flex;
@@ -93,6 +93,21 @@
     flex-direction: column;
 
     gap: 3px;
+}
+.sign-in, button {
+    margin-left: 5%;
+}
+button {
+
+    margin-top: 40px;
+    background-color: rgb(89, 160, 218);
+    padding: 15px 30px;
+    border-radius: 5px;
+    color: white;
+    border: 1px solid #E5E7EB;
+}
+.sign-in {
+    margin-top: 10px;
 }
 .photo-credit-right{
     position: absolute;
