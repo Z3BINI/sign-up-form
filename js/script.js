@@ -1,5 +1,6 @@
 const backgroundImage = document.querySelector('.bg-image');
 const rightPannel = document.querySelector('.right-pannel');
+const leftPannel = document.querySelector('.left-pannel');
 const password = document.querySelector('#pass');
 const confirmPassword = document.querySelector('#conf_pass');
 const warningP = document.querySelector('.small.no-match');
@@ -9,7 +10,7 @@ const btn = document.querySelector('button');
 /* Background Blur start*/ 
 
 rightPannel.addEventListener('mouseenter', () => addBlur(backgroundImage));
-rightPannel.addEventListener('mouseleave', () => removeBlur(backgroundImage));
+leftPannel.addEventListener('mouseenter', () => removeBlur(backgroundImage));
 
 function addBlur(image) {
 
