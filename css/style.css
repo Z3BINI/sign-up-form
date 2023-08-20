@@ -123,6 +123,17 @@ button:hover {
 
     padding: 5px 5px 0 5px;
 }
+.login-link {
+    color: rgb(89, 160, 218);
+    font-weight: bold;
+    background-color: rgb(255, 255, 255);
+    border-radius: 25px;
+    padding: 2px 5px;
+    text-decoration: none;
+}
+.login-link:hover {
+    box-shadow: 0px 0px 5px black;
+}
 
 
 /*Left side CSS*/
